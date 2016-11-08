@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<script src="http://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+		<script src="app.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+
+		<!-- CONTACTS LIST -->
+		<div class="page-view contacts-list">
+			<div class="header">
+				<h1>Contacts List</h1>
+				<button class="show-contact-form">Add Contact</button>			
+			</div>
+
+			<div class="content">
+				<ul></ul>				
+			</div>
+		</div>
+		
+
+		<div class='page-view new-address-form'>
+			<div class="header">
+				<h1>New Contact</h1>
+				<button class="go-to-all-contacts">Back</button>
+			</div>
+	
+			<form>
+				<input type="text" class="name" placeholder="Full name...">
+				<input type="number" class="phone" placeholder="Phone number...">
+  				<input type="text" class="email" placeholder="Email...">
+  				<button type="submit">Submit</button>
+			</form>
+			<hr>
+		</div>
+
+		<div class="page-view individual-contact">
+			<div class="header">
+				<h1></h1>
+				<button class="go-to-all-contacts">All Contacts</button>
+			</div>
+
+			<div class='content'>
+				<ul>
+					<li>Phone: <span class='phone'></span></li>
+					<li>Email: <span class='email'></span></li>
+					<li class='edit'>Edit</li>
+				</ul>
+			</div>
+		</div>
+
+		
+	</body>
+</html>
